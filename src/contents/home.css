@@ -1,0 +1,99 @@
+
+
+.html-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    /* background-color: #f9f6e4; */
+    font-size: 2rem;
+    position: static;
+    float: none;
+    margin: 0;
+    font-family: 'Permanent Marker',cursive;
+    /* border: 5px solid black; */
+    /* overflow: hidden; */
+}
+.homeTitle{
+    font-size: 1.5rem;
+    position: relative;
+    min-width: 100vw;
+    text-align: center;
+    color: #a6aaaa;
+    font-family: 'Pacifico', cursive !important;
+}
+
+.typing{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #02495b;
+}
+.About-btn{
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 12px;
+    border: 5px solid white;
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    font-family: 'Permanent Marker',cursive;
+}
+.aboutMeLink{
+    font: 1.5px;
+    text-decoration: none;
+}
+.aboutMeLink:visited{
+    color: black;
+}
+.About-btn:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 150ms ease-in-out;
+}
+
+
+@media only screen and (min-width:641px) and (max-width:1023px) {
+    .container,.homeTitle,.typing{
+        font-size: 3.3rem;
+    }
+    .About-btn{
+        transform: scale(1.5) !important;
+        margin-top: 5rem;
+    }
+    .aboutMeLink{
+        font-size:1.2rem;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .container,.homeTitle,.typing{
+        font-size: 5rem;
+    }
+    .About-btn{
+        margin-top: 5rem;
+    }
+    .aboutMeLink{
+        font-size:1.2rem;
+        text-decoration: none;
+        color: black;
+    }
+    .basedIn,.Iam{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:640px ) {
+
+    .About-btn{
+        transform: scale(1) !important;
+        
+    }
+
+
+}

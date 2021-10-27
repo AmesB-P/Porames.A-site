@@ -1,0 +1,41 @@
+.contact-container{
+    display: flex;
+    justify-content:center ;
+    max-width: 100vw;
+    height: auto;
+    margin-top: 3rem;
+    font-family:'Indie Flower', cursive;
+    /* border: 5px solid black; */
+}
+.btn-sendmail{
+    
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+}
+.textmail{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn-box{
+    margin-top: 3rem;
+    transform: scale(2);
+}
+.contact-header{
+    font-family: 'Itim', cursive;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Zen Kurenaido', sans-serif;
+}
+
+@media only screen and (min-width:280px) and (max-width:480px)  {
+    .btn-box{
+        margin-top: 3rem;
+        transform: scale(1.1);
+    }
+    
+   
+}

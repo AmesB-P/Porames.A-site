@@ -1,0 +1,78 @@
+/* 
+.footer-contianer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+     align-items: center;
+    max-width: 100vw;
+    max-height: auto;
+
+    position: static;
+    float: none;
+    margin-top: 20rem;
+    font-family:'Caveat', cursive;
+} */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
+}
+.grid-footer-container{
+    display: grid;
+    grid-template-columns: repeat(1,1);
+    grid-template-rows: repeat(3,1);
+    grid-template-areas: 
+    'backtotop backtotop backtotop',
+    'social social social'
+    'copyright copyright copyright'
+    ;
+    font-family:'Caveat', cursive;
+    /* border: 5px solid black; */
+    margin-top: 20rem;
+    /* overflow: hidden; */
+}
+.backtotop-btn{
+    grid : backtotop;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: auto;
+    /* border: 5px solid black; */
+}
+.backtotop-btn:hover{
+    cursor: pointer;
+}
+/* .social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5rem;
+    transform: scale(2);
+    grid : social;
+    
+} */
+.social{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 2.4rem;
+    transform: scale(2);
+}
+.socialIcon{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+.copyRight{
+    border-top: 2px solid gray;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    grid : copyright;
+    text-align: center;
+}
